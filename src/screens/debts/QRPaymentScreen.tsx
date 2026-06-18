@@ -1,8 +1,8 @@
 import React from 'react';
 import {
-  View, Text, StyleSheet, SafeAreaView, Clipboard, Alert,
-  TouchableOpacity,
-} from 'react-native';
+  View, Text, StyleSheet, Clipboard, Alert,
+  TouchableOpacity} from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRoute, type RouteProp } from '@react-navigation/native';
 import QRCode from 'react-native-qrcode-svg';
 

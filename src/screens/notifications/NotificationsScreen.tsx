@@ -1,8 +1,8 @@
 import React from 'react';
 import {
-  View, Text, StyleSheet, SafeAreaView,
-  FlatList, TouchableOpacity, ActivityIndicator,
-} from 'react-native';
+  View, Text, StyleSheet,
+  FlatList, TouchableOpacity, ActivityIndicator} from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Feather } from '@expo/vector-icons';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 

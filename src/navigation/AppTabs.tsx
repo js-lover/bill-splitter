@@ -5,7 +5,7 @@ import type { AppTabParamList } from '../types/navigation';
 import { HomeStack } from './HomeStack';
 import { DebtsStack } from './DebtsStack';
 import { NotificationsScreen } from '../screens/notifications/NotificationsScreen';
-import { ProfileScreen } from '../screens/profile/ProfileScreen';
+import { ProfileStack } from './ProfileStack';
 import { colors } from '../constants/colors';
 import { spacing } from '../constants/spacing';
 
@@ -40,7 +40,7 @@ export function AppTabs() {
       <Tab.Screen name="HomeTab" component={HomeStack} options={{ tabBarLabel: 'Ana Sayfa' }} />
       <Tab.Screen name="DebtsTab" component={DebtsStack} options={{ tabBarLabel: 'Borçlar' }} />
       <Tab.Screen name="NotificationsTab" component={NotificationsScreen} options={{ tabBarLabel: 'Bildirimler' }} />
-      <Tab.Screen name="ProfileTab" component={ProfileScreen} options={{ tabBarLabel: 'Profil' }} />
+      <Tab.Screen name="ProfileTab" component={ProfileStack} options={{ tabBarLabel: 'Profil' }} />
     </Tab.Navigator>
   );
 }
